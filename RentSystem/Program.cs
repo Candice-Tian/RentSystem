@@ -14,7 +14,7 @@ namespace RentSystem
     {
         public static void Main(string[] args)
         {
-            string connStr = AppSetting.GetAppSetting("Connections");
+            
 
             CreateHostBuilder(args).Build().Run();
         }
